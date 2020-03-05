@@ -83,7 +83,7 @@ describe "multiply" do
   end
   
   it "multiplies several numbers" do
-    expect(multiply([1,3,5,7,9])).to eq(945)
+    expect(multiply(1,3,5,7,9)).to eq(945)
   end
 end
 
@@ -94,6 +94,7 @@ describe "power" do
 end
 
 # http://en.wikipedia.org/wiki/Factorial
+
 describe "factorial" do
   it "computes the factorial of 0" do
     expect(factorial(0)).to eq(1)
