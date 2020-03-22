@@ -8,10 +8,10 @@ def subtract(num1, num2)
 end
 
 def sum(array)
-    # set an initial value for sum so it doesn't return nil when there are no values in the array
+    # set an initial value for sum so it doesn't return nil when there are no values in the array (base?)
     sum_array = 0
 
-    # evaluate length of array to determine sumsu
+    # evaluate length of array to determine sums
     if array.length == 1
         array[0]
     elsif array.length > 1
